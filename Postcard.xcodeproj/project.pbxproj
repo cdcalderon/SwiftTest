@@ -13,6 +13,8 @@
 		FAE1C1C319FC448F004EE2DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE1C1C219FC448F004EE2DC /* Images.xcassets */; };
 		FAE1C1C619FC448F004EE2DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE1C1C419FC448F004EE2DC /* LaunchScreen.xib */; };
 		FAE1C1D219FC448F004EE2DC /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1C1D119FC448F004EE2DC /* PostcardTests.swift */; };
+		FAE1C1DD19FC4EFD004EE2DC /* lambo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAE1C1DB19FC4EFD004EE2DC /* lambo2.jpg */; };
+		FAE1C1DE19FC4EFD004EE2DC /* lambo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAE1C1DC19FC4EFD004EE2DC /* lambo1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		FAE1C1CB19FC448F004EE2DC /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE1C1D019FC448F004EE2DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAE1C1D119FC448F004EE2DC /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		FAE1C1DB19FC4EFD004EE2DC /* lambo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lambo2.jpg; sourceTree = "<group>"; };
+		FAE1C1DC19FC4EFD004EE2DC /* lambo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lambo1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		FAE1C1B919FC448F004EE2DC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FAE1C1DC19FC4EFD004EE2DC /* lambo1.jpg */,
+				FAE1C1DB19FC4EFD004EE2DC /* lambo2.jpg */,
 				FAE1C1BA19FC448F004EE2DC /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,7 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE1C1C119FC448F004EE2DC /* Main.storyboard in Resources */,
+				FAE1C1DE19FC4EFD004EE2DC /* lambo1.jpg in Resources */,
 				FAE1C1C619FC448F004EE2DC /* LaunchScreen.xib in Resources */,
+				FAE1C1DD19FC4EFD004EE2DC /* lambo2.jpg in Resources */,
 				FAE1C1C319FC448F004EE2DC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
